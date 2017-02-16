@@ -1,3 +1,5 @@
+# coding: utf-8
+
 """
 Django settings for clothes_factory project.
 
@@ -120,3 +122,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATIC_ROOT = os.path.join(os.path.dirname(__file__),'static')
+# 设置图片等静态文件的路径
+STATICFILES_DIRS = (
+    ('css',os.path.join(STATIC_ROOT,'css').replace('\\','/') ),
+    ('js',os.path.join(STATIC_ROOT,'js').replace('\\','/') ),
+    ('images',os.path.join(STATIC_ROOT,'images').replace('\\','/') ),
+    ('fonts',os.path.join(STATIC_ROOT,'fonts').replace('\\','/') ),
+)

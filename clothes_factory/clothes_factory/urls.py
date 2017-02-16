@@ -1,3 +1,5 @@
+# coding: utf-8
+
 """clothes_factory URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -13,11 +15,21 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
+
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+
+from django.contrib import staticfiles
+
 from django.conf.urls import url
 from django.contrib import admin
 from first_page import views as first_page_views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', first_page_views.first_page, name='first_page'),
+    url(r'^$', first_page_views.home, name='home'),
+    url(r'^product/', first_page_views.product, name='product'),
 ]
+
+
+#设置静态文件路径
+urlpatterns += staticfiles_urlpatterns()
