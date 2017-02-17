@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/桌面/cpts_477_sk/.idea/cpts_477_sk.iml" filepath="$USER_HOME$/桌面/cpts_477_sk/.idea/cpts_477_sk.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/first_website.iml" filepath="$PROJECT_DIR$/.idea/first_website.iml" />
+      <module fileurl="file://$USER_HOME$/桌面/jQuery网页左侧3D展开二级菜单/.idea/jQuery网页左侧3D展开二级菜单.iml" filepath="$USER_HOME$/桌面/jQuery网页左侧3D展开二级菜单/.idea/jQuery网页左侧3D展开二级菜单.iml" />
+      <module fileurl="file://$USER_HOME$/桌面/未命名文件夹/.idea/未命名文件夹.iml" filepath="$USER_HOME$/桌面/未命名文件夹/.idea/未命名文件夹.iml" />
     </modules>
   </component>
 </project>

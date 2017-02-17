@@ -8,3 +8,9 @@ def home(request):
 
 def product(request):
     return render(request, 'first_page/product.html')
+
+def case(request):
+    return render(request, 'first_page/case.html')
+
+def contact(request):
+    return render(request, 'first_page/contact.html')

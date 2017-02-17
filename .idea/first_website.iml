@@ -4,6 +4,9 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="未命名文件夹" />
+    <orderEntry type="module" module-name="jQuery网页左侧3D展开二级菜单" />
+    <orderEntry type="module" module-name="cpts_477_sk" />
   </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="Unittests" />

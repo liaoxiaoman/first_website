@@ -28,6 +28,8 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', first_page_views.home, name='home'),
     url(r'^product/', first_page_views.product, name='product'),
+    url(r'^case/', first_page_views.case, name='case'),
+    url(r'^contact/', first_page_views.contact, name='contact'),
 ]
 
 
